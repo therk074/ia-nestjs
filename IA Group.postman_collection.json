@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "3a115d76-89dc-4a6e-b3f1-6bd499125bfb",
+		"name": "IA Group",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Triangle function",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "base",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "height",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/triangle",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"triangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Citizen function",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "citizen_id",
+							"value": "1201541462234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/citizen",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"citizen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Star",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/star",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"star"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
